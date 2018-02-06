@@ -1,0 +1,27 @@
+{
+  "name": "lambda-dispatcher",
+  "version": "0.0.1",
+  "description": "Helper to dispatch task to lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest __test__/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiiaik/lambda-dispatcher.git"
+  },
+  "keywords": [
+    "lambda",
+    "dispatch",
+    "aws"
+  ],
+  "author": "Chii Aik Fang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiiaik/lambda-dispatcher/issues"
+  },
+  "homepage": "https://github.com/chiiaik/lambda-dispatcher#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
