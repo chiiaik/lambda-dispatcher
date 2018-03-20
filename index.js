@@ -1,12 +1,12 @@
-const _ = require('lodash');
+const isEmpty = require('lodash/isEmpty');
 const AWS = require('aws-sdk');
 
 module.exports = {
     dispatch: function (fnNameOrArn, invocationType, payload) {
-        if (_.isEmpty(fnNameOrArn)) {
+        if (isEmpty(fnNameOrArn)) {
             return Promise.reject(new Error('missing lambda function name or ARN'));
         }
-        if (_.isEmpty(invocationType) && _.isEmpty(payload)) {
+        if (isEmpty(invocationType) && isEmpty(payload)) {
             return Promise.reject(new Error('missing payload'));
         }
         let aType, aPayload;

@@ -1,10 +1,10 @@
 {
   "name": "lambda-dispatcher",
-  "version": "0.0.1",
-  "description": "Helper to dispatch task to lambda",
+  "version": "0.0.2",
+  "description": "Helper to create and invoke AWS Lambda",
   "main": "index.js",
   "scripts": {
-    "test": "jest __test__/**.test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
