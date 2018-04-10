@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/chiiaik/lambda-dispatcher#readme",
   "dependencies": {
-    "lodash": "^4.17.5"
+    "lodash.isempty": "^4.4.0"
   }
 }

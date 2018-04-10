@@ -1,4 +1,4 @@
-const isEmpty = require('lodash/isEmpty');
+const isEmpty = require('lodash.isempty');
 const AWS = require('aws-sdk');
 
 module.exports = {
